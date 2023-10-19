@@ -1,0 +1,23 @@
+
+https://replit.com/@a00574073/EXAMEN?v=1
+
+print("Bienvenido a la cafetería de Ana")
+
+temperatura=int(input("¿A qué temperatura te gustaría  tu bebida? "))
+
+if temperatura < 50:
+  print("Espera a que la bebida se caliente")
+elif temperatura < 70 :
+  print("Se puede servir de inmediato")
+else :
+  print("Bebida muy caliente, debe esperar a que se enfríe")
+
+
+hora = int(input("¿Qué hora es? "))
+
+if hora > 12:
+  print("Espera el turno")
+elif hora < 11:
+  print("La bebidas calientes se sirven más rápido ")
+else:
+  print("Espera el turno")
